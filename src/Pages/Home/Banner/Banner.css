@@ -1,0 +1,41 @@
+/* 
+h1 {
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+h1:before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 1px solid red;
+}
+*/
+.home-banner {
+    position: relative;
+    background-image: url('../../../img/bannerbackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 600px;
+
+}
+
+.input-field {
+    border: none;
+    border-left: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    background-color: #eff0f3;
+    outline: none;
+}
+
+.search-btn {
+    margin-left: -50px;
+    border: none;
+    border-bottom: 2px solid #d9376e;
+}
