@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "categories":"Breakfast",
+        "name": "Bagel and cream cheese",
+        "thumb": "https://i.ibb.co/BKXXYTR/breakfast1.png",
+        "price": 6.99,
+        "rating": 4.7,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit distinctio voluptas quis saepe aliquid, quidem eos minus fugit? Voluptatum praesentium esse ad officia quas illum! Adipisci vero labore fugiat beatae?"
+    },
+    {
+        "id": 2,
+        "categories":"Breakfast",
+        "name": "Breakfasr sandwich",
+        "thumb": "https://i.ibb.co/GvTmFcG/breakfast2.png",
+        "price": 9.99,
+        "rating": 4.8,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit distinctio voluptas quis saepe aliquid, quidem eos minus fugit? Voluptatum praesentium esse ad officia quas illum! Adipisci vero labore fugiat beatae?"
+    },
+    {
+        "id": 3,
+        "categories":"Breakfast",
+        "name": "Baked Chicken",
+        "thumb": "https://i.ibb.co/3537H0H/breakfast3.png",
+        "price": 10.99,
+        "rating": 5,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit distinctio voluptas quis saepe aliquid, quidem eos minus fugit? Voluptatum praesentium esse ad officia quas illum! Adipisci vero labore fugiat beatae?"
+    },
+    {
+        "id": 4,
+        "categories":"Breakfast",
+        "name": "Eggs Benedict",
+        "thumb": "https://i.ibb.co/JCzDQy5/breakfast4.png",
+        "price": 8.99,
+        "rating": 4.4,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit distinctio voluptas quis saepe aliquid, quidem eos minus fugit? Voluptatum praesentium esse ad officia quas illum! Adipisci vero labore fugiat beatae?"
+    },
+    {
+        "id": 5,
+        "categories":"Breakfast",
+        "name": "Toast Croissant Fried Egg",
+        "thumb": "https://i.ibb.co/qdcbK8R/breakfast5.png",
+        "price": 19.99,
+        "rating": 4.8,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit distinctio voluptas quis saepe aliquid, quidem eos minus fugit? Voluptatum praesentium esse ad officia quas illum! Adipisci vero labore fugiat beatae?"
+    },
+    {
+        "id": 6,
+        "categories":"Breakfast",
+        "name": "Fried Egg Toast Brunch",
+        "thumb": "https://i.ibb.co/wgR0W4K/breakfast6.png",
+        "price": 3.99,
+        "rating": 4.9,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit distinctio voluptas quis saepe aliquid, quidem eos minus fugit? Voluptatum praesentium esse ad officia quas illum! Adipisci vero labore fugiat beatae?"
+    }
+]
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+[
+{
+    "id": 13,
+    "categories":"Dinner",
+    "name": "Salmon with Grape-Lentil Salad",
+    "thumb": "https://i.ibb.co/GVyTGNN/dinner1.png",
+    "price": 9.99,
+    "rating": 4.9,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicingelit. Velit distinctio voluptas quis saepe aliquid, quidem eosminus fugit? Voluptatum praesentium esse ad officia quas illum!Adipisci vero labore fugiat beatae?"
+},
+{
+    "id": 14,
+    "categories":"Dinner",
+    "name": "Lemony Salmon Piccata",
+    "thumb": "https://i.ibb.co/G3FtX00/dinner2.png",
+    "price": 10.99,
+    "rating": 4.9,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicingelit. Velit distinctio voluptas quis saepe aliquid, quidem eosminus fugit? Voluptatum praesentium esse ad officia quas illum!Adipisci vero labore fugiat beatae?"
+},
+{
+    "id": 15,
+    "categories":"Dinner",
+    "name": "Chicken Tenderloin",
+    "thumb": "https://i.ibb.co/x55WJ3g/dinner3.png",
+    "price": 12.99,
+    "rating": 4.9,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicingelit. Velit distinctio voluptas quis saepe aliquid, quidem eosminus fugit? Voluptatum praesentium esse ad officia quas illum!Adipisci vero labore fugiat beatae?"
+},
+{
+    "id": 16,
+    "categories":"Dinner",
+    "name": "French Fries with Cheese",
+    "thumb": "https://i.ibb.co/37r3Gg4/dinner4.png",
+    "price": 8.99,
+    "rating": 4.9,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicingelit. Velit distinctio voluptas quis saepe aliquid, quidem eosminus fugit? Voluptatum praesentium esse ad officia quas illum!Adipisci vero labore fugiat beatae?"
+},
+{
+    "id": 17,
+    "categories":"Dinner",
+    "name": "Garlic Butter Backed Salmon",
+    "thumb": "https://i.ibb.co/HDDvv8d/dinner5.png",
+    "price":6.99,
+    "rating": 4.9,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicingelit. Velit distinctio voluptas quis saepe aliquid, quidem eosminus fugit? Voluptatum praesentium esse ad officia quas illum!Adipisci vero labore fugiat beatae?"
+},
+{
+    "id": 18,
+    "categories":"Dinner",
+    "name": "Backed Chicken",
+    "thumb": "https://i.ibb.co/ssZjTQ3/dinner6.png",
+    "price": 9.99,
+    "rating": 4.9,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicingelit. Velit distinctio voluptas quis saepe aliquid, quidem eosminus fugit? Voluptatum praesentium esse ad officia quas illum!Adipisci vero labore fugiat beatae?"
+}
+]

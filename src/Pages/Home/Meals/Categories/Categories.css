@@ -1,0 +1,22 @@
+.menu-btn {
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    display: inline-block;
+    position: relative;
+}
+
+.menu-btn::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 3px solid #d9376e;
+}
+
+.menu-btn:hover {
+    color: #d9376e;
+}
