@@ -14,9 +14,6 @@ const MealDetail = () => {
     const { categories, description, name, price, rating, thumb } = meal;
 
     const [quantity, setQuantity] = useState(1);
-    const [mealPrice, setMealPrice] = useState(price);
-
-    console.log(mealPrice);
 
     const handleIncrement = () => {
         setQuantity(quantity + 1);
@@ -55,6 +52,12 @@ const MealDetail = () => {
                     </div>
                     <button className="secondary-btn mt-3 border-0 px-3 py-2"> <i className="fas fa-cart-plus"></i> Add to Cart</button>
 
+                </div>
+                <div className="mt-5">
+                    <h3>More From Lunch Items</h3>
+                    {
+
+                    }
                 </div>
             </div>
         </Container>

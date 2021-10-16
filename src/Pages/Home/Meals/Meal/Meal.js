@@ -12,7 +12,7 @@ const Meal = (props) => {
     }
 
     return (
-        <div className="col-lg-4 col-md-6 col-12 text-center menu-card ">
+        <div className="col-lg-4 col-md-6 col-12 text-center menu-card mb-3">
             <div>
                 <img src={thumb} alt="" className="w-50" />
                 <h5 className="text-center pt-2">{name}</h5>

@@ -1,0 +1,28 @@
+.form-container {
+    margin: 30px 150px;
+}
+
+.form-container input {
+    display: block;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    transition: 0.3s;
+}
+
+.field {
+    background-color: rgb(227, 242, 255);
+}
+
+.form-container input:hover {
+    box-shadow: 5px 5px 10px gray;
+}
+
+.auth-btn {
+    width: 300px;
+}
+
+.error {
+    color: red;
+}

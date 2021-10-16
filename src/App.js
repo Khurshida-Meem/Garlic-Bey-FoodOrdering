@@ -5,6 +5,7 @@ import Home from './Pages/Home/Home/Home';
 import MealDetail from './Pages/Home/Meals/MealDetail/MealDetail';
 import Login from './Pages/Login/Login/Login';
 import NotFound from './Pages/NotFound/NotFound';
+import Register from './Pages/Register/Register';
 import Menu from './Pages/Shared/Navbar/Menu';
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
             </Route>
             <Route path="/login">
               <Login></Login>
+            </Route>
+            <Route path="/register">
+              <Register></Register>
             </Route>
             <Route path="*">
               <NotFound></NotFound>
