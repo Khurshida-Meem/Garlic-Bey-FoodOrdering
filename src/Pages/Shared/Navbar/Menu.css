@@ -1,0 +1,18 @@
+.menus {
+    text-decoration: none;
+    color: #d9376e;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.menus span {
+    font-size: 10px;
+}
+
+
+
+.menus:hover {
+    background-color: #d9376e;
+    color: white;
+    border-radius: 5px;
+}

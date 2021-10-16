@@ -5,12 +5,14 @@ import Home from './Pages/Home/Home/Home';
 import MealDetail from './Pages/Home/Meals/MealDetail/MealDetail';
 import Login from './Pages/Login/Login/Login';
 import NotFound from './Pages/NotFound/NotFound';
+import Menu from './Pages/Shared/Navbar/Menu';
 
 function App() {
   return (
     <div>
       <AuthProvider>
         <Router>
+          <Menu></Menu>
           <Switch>
             <Route exact path="/">
               <Home></Home>

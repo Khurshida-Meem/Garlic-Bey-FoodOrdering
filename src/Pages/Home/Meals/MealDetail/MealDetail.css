@@ -1,0 +1,11 @@
+.quantity-btn-container {
+    border: 2px solid lightgray;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.quantity-btn-container button {
+    border: none;
+    background-color: white;
+
+}
