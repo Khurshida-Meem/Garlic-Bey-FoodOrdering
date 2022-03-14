@@ -12,7 +12,6 @@ const Categories = () => {
     const lunch = useData('https://raw.githubusercontent.com/Khurshida-Meem/fake-Datas/main/Garlic-Bey/Lunch');
     const [meals, setMeals] = useState([]);
 
-    console.log(meals);
 
     return (
         <div>
