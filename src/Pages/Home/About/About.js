@@ -8,7 +8,9 @@ import './About.css'
 const About = () => {
     return (
         <div className='mt-5'>
-            <Container>
+            <Container className='mt-5'>
+                <h1>Why you choose us</h1>
+                <p className='py-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem hic ab totam eligendi nulla earum illo quam eius vel fugit. Est vero, facere velit ab perspiciatis quod provident modi, suscipit unde, quam voluptates eligendi quibusdam necessitatibus laboriosam possimus commodi itaque.</p>
                 <Row xs={1} md={3} className="g-4">
                     <Col>
                         <Card className='border-0 card-container'>
