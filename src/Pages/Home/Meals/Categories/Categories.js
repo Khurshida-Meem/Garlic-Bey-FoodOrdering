@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
 import useData from '../../../../hooks/useData';
 import Meal from '../Meal/Meal';
 import './Categories.css'

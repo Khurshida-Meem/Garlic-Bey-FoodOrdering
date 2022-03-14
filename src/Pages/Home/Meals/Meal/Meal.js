@@ -14,7 +14,7 @@ const Meal = (props) => {
 
     return (
         <Col className="text-center menu-card my-3">
-            <div>
+            <div className='pt-2'>
                 <img src={thumb} alt="" className="w-50" />
                 <h5 className="text-center pt-2">{name}</h5>
 
