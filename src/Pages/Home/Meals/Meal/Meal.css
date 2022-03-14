@@ -1,22 +1,22 @@
 .menu-card {
-    min-height: 280px;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: stretch;
-    transition: 0.5s;
+  min-height: 280px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  transition: 0.5s;
 }
 
-.menu-card>* {
-    flex-grow: 1;
-    flex-basis: 0;
+.menu-card > * {
+  flex-grow: 1;
+  flex-basis: 0;
 }
 
 .menu-card:hover {
-    box-shadow: 5px 5px 10px gray;
+  box-shadow: 5px 5px 10px gray;
 }
 
 .fa-star {
-    color: #ff7b1d;
+  color: #ff7b1d;
 }

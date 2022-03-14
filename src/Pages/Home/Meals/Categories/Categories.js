@@ -1,27 +1,46 @@
 import React, { useState } from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 import useData from '../../../../hooks/useData';
 import Meal from '../Meal/Meal';
 import './Categories.css'
+import { NavHashLink } from 'react-router-hash-link';
+
 
 const Categories = () => {
-    const breakfast = useData('./breakfastDB.json');
-    const dinner = useData('./dinnerDB.json');
-    const lunch = useData('./lunchDB.json');
-    const [meals, setMeals] = useState(false);
+    const breakfast = useData('https://raw.githubusercontent.com/Khurshida-Meem/fake-Datas/main/Garlic-Bey/Breakfast');
+    const dinner = useData('https://raw.githubusercontent.com/Khurshida-Meem/fake-Datas/main/Garlic-Bey/Dinner');
+    const lunch = useData('https://raw.githubusercontent.com/Khurshida-Meem/fake-Datas/main/Garlic-Bey/Lunch');
+    const [meals, setMeals] = useState([]);
+
+    console.log(meals);
 
     return (
         <div>
-            <Container>
-                <div className="d-flex justify-content-evenly my-5">
-                    <button className="menu-btn" onClick={() => setMeals(breakfast)}>Breakfast</button>
-                    <button className="menu-btn" onClick={() => setMeals(lunch)}>Lunch</button>
-                    <button className="menu-btn" onClick={() => setMeals(dinner)}>Dinner</button>
+            <Container className='mt-5'>
+                <div className='d-lg-flex d-md-flex align-items-center justify-content-evenly'>
+                    <div>
+                        <NavHashLink onClick={() => setMeals(breakfast)} className='meal-link px-2' to='/'>Breakfast</NavHashLink>
+                    </div>
+                    <div>
+                        <NavHashLink onClick={() => setMeals(lunch)} className='meal-link px-2' to='/#lunch'>Lunch</NavHashLink>
+                    </div>
+                    <div>
+                        <NavHashLink onClick={() => setMeals(dinner)} className='meal-link px-2' to='/#dinner'>Dinner</NavHashLink>
+                    </div>
                 </div>
-                <div className="row">
-                    {
-                        !meals ? lunch.map(meal => <Meal key={meal.id} meal={meal}></Meal>) : meals.map(meal => <Meal key={meal.id} meal={meal}></Meal>)
-                    }
+
+                <div className='mt-4'>
+                    <Row sm={1} md={3}>
+                        {
+                            meals.map(meal => <Meal
+                                key={meal.id}
+                                meal={meal}
+                            >
+
+                            </Meal>)
+                        }
+                    </Row>
 
                 </div>
             </Container>

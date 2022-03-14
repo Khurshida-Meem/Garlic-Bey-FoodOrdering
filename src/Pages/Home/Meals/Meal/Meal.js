@@ -1,4 +1,5 @@
 import React from 'react';
+import { Col } from 'react-bootstrap';
 import Rating from 'react-rating';
 import { useHistory } from 'react-router';
 import './Meal.css'
@@ -12,7 +13,7 @@ const Meal = (props) => {
     }
 
     return (
-        <div className="col-lg-4 col-md-6 col-12 text-center menu-card mb-3">
+        <Col className="text-center menu-card my-3">
             <div>
                 <img src={thumb} alt="" className="w-50" />
                 <h5 className="text-center pt-2">{name}</h5>
@@ -26,7 +27,7 @@ const Meal = (props) => {
                 <h4 className="fw-bold">${price}</h4>
                 <button onClick={handleDetailClick} className="secondary-btn px-4 py-1 mb-3 border-0">Details</button>
             </div>
-        </div >
+        </ Col>
     );
 };
 

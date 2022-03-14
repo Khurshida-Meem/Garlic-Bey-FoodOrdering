@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
-import logo from '../../../img/logo.png'
+import logo from '../../../img/logo2.png'
 import './Menu.css'
 
 

@@ -1,22 +1,35 @@
+.meal-link {
+  text-decoration: none;
+  color: rgb(21, 36, 63);
+  font-size: 1.5em;
+}
+
+.meal-link.active,
+.meal-link:hover {
+  color: #d9376e;
+  border-bottom: 3px solid #d9376e;
+  border-top: 3px solid #d9376e;
+}
+
 .menu-btn {
-    background-color: white;
-    font-size: 20px;
-    font-weight: 600;
-    border: none;
-    display: inline-block;
-    position: relative;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  display: inline-block;
+  position: relative;
 }
 
 .menu-btn::before {
-    content: "";
-    position: absolute;
-    width: 50%;
-    height: 1px;
-    bottom: 0;
-    left: 25%;
-    border-bottom: 3px solid #d9376e;
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  bottom: 0;
+  left: 25%;
+  border-bottom: 3px solid #d9376e;
 }
 
 .menu-btn:hover {
-    color: #d9376e;
+  color: #d9376e;
 }
