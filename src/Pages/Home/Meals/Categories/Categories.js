@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import useData from '../../../../hooks/useData';
 import Meal from '../Meal/Meal';
@@ -7,10 +7,17 @@ import { NavHashLink } from 'react-router-hash-link';
 
 
 const Categories = () => {
+
+    const [meals, setMeals] = useState([]);
+    useEffect(() => {
+        fetch('https://raw.githubusercontent.com/Khurshida-Meem/fake-Datas/main/Garlic-Bey/Breakfast')
+            .then(res => res.json())
+            .then(data => setMeals(data))
+    }, [])
+
     const breakfast = useData('https://raw.githubusercontent.com/Khurshida-Meem/fake-Datas/main/Garlic-Bey/Breakfast');
     const dinner = useData('https://raw.githubusercontent.com/Khurshida-Meem/fake-Datas/main/Garlic-Bey/Dinner');
     const lunch = useData('https://raw.githubusercontent.com/Khurshida-Meem/fake-Datas/main/Garlic-Bey/Lunch');
-    const [meals, setMeals] = useState([]);
 
 
     return (
