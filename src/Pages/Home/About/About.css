@@ -1,0 +1,18 @@
+.about-icon {
+  background-color: #d9376e;
+  color: white;
+  border-radius: 50px;
+}
+
+.more-icon {
+  background-color: lightgreen;
+  color: white;
+  border-radius: 50px;
+}
+
+.card-container {
+  transition: 0.3s;
+}
+.card-container:hover {
+  box-shadow: 3px 3px 6px gray;
+}
