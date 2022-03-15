@@ -38,6 +38,8 @@ const Login = () => {
                             <button className="secondary-btn border-0 px-5 py-2 auth-btn mb-3" onClick={signInUsingGoogle}><i className="fab fa-google"></i> Sign In Using Google</button>
                             <br />
                             <NavLink className="secondary-text text-center link-text" to="/register">New to Garlic Bay?</NavLink>
+                            <br />
+                            <NavLink className="secondary-text text-center  link-text" to="/"><i className="fas fa-home"></i> Back to Home</NavLink>
                         </div>
 
                     </div> :

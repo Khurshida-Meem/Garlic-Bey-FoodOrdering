@@ -45,6 +45,8 @@ const Register = () => {
                         <hr />
                         <div className="text-center">
                             <NavLink className="secondary-text text-center  link-text" to="/login">Already Have an account?</NavLink>
+                            <br />
+                            <NavLink className="secondary-text text-center  link-text" to="/"><i className="fas fa-home"></i> Back to Home</NavLink>
                         </div>
 
                     </div> :
