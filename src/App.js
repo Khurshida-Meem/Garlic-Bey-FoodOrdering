@@ -6,6 +6,7 @@ import MealDetail from './Pages/Home/Meals/MealDetail/MealDetail';
 import Login from './Pages/Login/Login/Login';
 import NotFound from './Pages/NotFound/NotFound';
 import Register from './Pages/Register/Register';
+import Footer from './Pages/Shared/Footer/Footer';
 import Menu from './Pages/Shared/Navbar/Menu';
 
 function App() {
@@ -34,8 +35,8 @@ function App() {
               <NotFound></NotFound>
             </Route>
           </Switch>
+          <Footer></Footer>
         </Router>
-
       </AuthProvider>
     </div>
   );
