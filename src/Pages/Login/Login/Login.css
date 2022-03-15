@@ -2,6 +2,14 @@
     margin: 30px 150px;
 } */
 
+.login-bg {
+  background: url(../../../img/loginbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
 .form-container input {
   display: block;
   outline: none;

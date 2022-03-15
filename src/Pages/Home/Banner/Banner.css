@@ -21,7 +21,7 @@ h1:before {
   background-image: url("../../../img/bannerbackground.png");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  background-position: center;
   height: 100vh;
 }
 
