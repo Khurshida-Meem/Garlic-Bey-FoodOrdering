@@ -9,7 +9,6 @@ import './Menu.css'
 const Menu = () => {
 
     const { user, logOut } = useAuth();
-    console.log(user);
 
     return (
         <Navbar bg="light" expand="lg" sticky="top">
